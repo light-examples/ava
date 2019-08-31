@@ -1,0 +1,21 @@
+{
+  "name": "my-light-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "light start",
+    "dev": "light dev",
+    "test": "ava"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "light": "^1.3.2"
+  },
+  "devDependencies": {
+    "ava": "^2.3.0",
+    "node-fetch": "^2.6.0"
+  }
+}
