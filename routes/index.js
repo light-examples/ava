@@ -1,12 +1,10 @@
-const { light, Route } = require('light');
+const { route } = require('light');
 
-class Index extends Route {
-  async handler() {
-    return {
-      hello: 'world',
-      this: 'is being tested by ava',
-    };
-  }
-}
+const { handler } = route();
 
-module.exports = light(Index);
+module.exports = handler(() => {
+  return {
+    hello: 'world',
+    this: 'is being tested by ava',
+  };
+});

@@ -12,10 +12,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "light": "^1.3.2"
+    "light": "^1.5.0"
   },
   "devDependencies": {
-    "ava": "^2.3.0",
+    "ava": "^2.4.0",
     "node-fetch": "^2.6.0"
   }
 }
